@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+*storybook.log
+
+# Storybook
+storybook-static/
+.storybook/static/
+*.stories.d.ts
+
+# 기존 .gitignore 내용...
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
